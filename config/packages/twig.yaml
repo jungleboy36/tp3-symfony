@@ -1,0 +1,7 @@
+twig:
+    default_path: '%kernel.project_dir%/src/templates'
+    paths:
+        '%kernel.project_dir%/src/templates/articles': __main__
+when@test:
+    twig:
+        strict_variables: true
